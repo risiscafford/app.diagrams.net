@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-21T07:46:40.055Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="ywP9PwctaTburErZv7Ti" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-21T07:50:54.445Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Ir38MddLgr3uv3kGZ-Yr" version="20.8.16" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="4435" dy="3010" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="3240" dy="2373" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1495,6 +1495,12 @@
             <mxPoint x="1240" y="90" as="sourcePoint" />
             <mxPoint x="1310" y="55" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="z3o-LrcOydEG6J84ChXI-740" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;fontFamily=Architects Daughter;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="360" y="-500" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z3o-LrcOydEG6J84ChXI-741" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;회원가입은 통합 회원관리 사이트인 cw.caffelabel.com&amp;nbsp;에서만 진행하고&amp;nbsp;&lt;br&gt;아래 각 사이트는 회원관리 사이트에서 가입한 아이디로 로그인을 한다.&lt;br&gt;&lt;br&gt;로그인시 com_members 테이블과 ${value}_members 테이블을 비교&lt;br&gt;${value}_members에 회원이 없으면 insert 후 계약서 및 기타 내용 작성&lt;br&gt;${value}_members에 회원이 있으면 최신정보로 업데이트만 진행함&lt;br&gt;&lt;br&gt;차후 납품용으로는 위의 단계를 수행하는&amp;nbsp; 함수를 주석처리하고 납품함&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;fontFamily=Architects Daughter;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="660" y="-935" width="730" height="355" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
